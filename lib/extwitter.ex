@@ -860,6 +860,11 @@ defmodule ExTwitter do
   # GET friendships/lookup
   # https://dev.twitter.com/docs/api/1.1/get/friendships/lookup
 
+
+  # -------------- Media -------------
+
+  defdelegate update_with_media(media_content, options), to: ExTwitter.API.Media
+
   # -------------- Users -------------
 
   # GET account/settings

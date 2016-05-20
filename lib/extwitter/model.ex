@@ -103,6 +103,19 @@ defmodule ExTwitter.Model.Place do
   @type t :: %__MODULE__{}
 end
 
+# defmodule ExTwitter.Model.Media do
+#   @moduledoc """
+#   Media object
+#
+#   ## Refernce
+#   https://dev.twitter.com/rest/reference/post/media/upload
+#   """
+#   defstruct id: nil, media_id: nil, media_id_string: nil, size: nil,
+#     expires_after_secs: nil, video: nil, image: nil
+#
+#   @type t :: %__MODULE__{}
+# end
+
 defmodule ExTwitter.Model.Geo do
   defstruct type: nil, coordinates: nil
 

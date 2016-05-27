@@ -21,10 +21,9 @@ defmodule ExTwitter.Model.Tweet do
 end
 
 defmodule ExTwitter.Model.Upload do
-  defstruct expires_after_secs: nil,  media_id: nil, media_id_string: nil, size: nil
+  defstruct expires_after_secs: nil, media_id: nil, media_id_string: nil, size: nil, image: nil, video: nil
   @type t :: %__MODULE__{}
 end
-
 
 defmodule ExTwitter.Model.User do
   @moduledoc """

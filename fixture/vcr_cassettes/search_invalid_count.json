@@ -1,47 +1,51 @@
 [
   {
     "request": {
-      "url": "https://api.twitter.com/1.1/search/tweets.json",
+      "body": "",
       "headers": [],
       "method": "get",
-      "body": "",
       "options": {
         "httpc_options": [],
         "http_options": {
-          "autoredirect": false
+          "autoredirect": "false"
         }
-      }
+      },
+      "request_body": "",
+      "url": "https://api.twitter.com/1.1/search/tweets.json"
     },
     "response": {
-      "type": "ok",
+      "body": "{\"errors\":[{\"code\":44,\"message\":\"count parameter is invalid.\"}]}",
+      "headers": {
+        "cache-control": "no-cache, no-store, must-revalidate, pre-check=0, post-check=0",
+        "date": "Fri, 27 May 2016 20:40:39 GMT",
+        "pragma": "no-cache",
+        "server": "tsa_a",
+        "content-length": "64",
+        "content-type": "application/json;charset=utf-8",
+        "expires": "Tue, 31 Mar 1981 05:00:00 GMT",
+        "last-modified": "Fri, 27 May 2016 20:40:39 GMT",
+        "content-disposition": "attachment; filename=json.json",
+        "set-cookie": "lang=en; Path=/",
+        "status": "400 Bad Request",
+        "strict-transport-security": "max-age=631138519",
+        "x-access-level": "read-write",
+        "x-connection-hash": "6e4f210c188ca01873a409dc0dbe7ba7",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "SAMEORIGIN",
+        "x-rate-limit-limit": "180",
+        "x-rate-limit-remaining": "178",
+        "x-rate-limit-reset": "1464382538",
+        "x-response-time": "13",
+        "x-transaction": "e72fa77c9d04523c",
+        "x-twitter-response-tags": "BouncerCompliant",
+        "x-xss-protection": "1; mode=block"
+      },
       "status_code": [
         "HTTP/1.1",
         400,
         "Bad Request"
       ],
-      "headers": {
-        "cache-control": "no-cache, no-store, must-revalidate, pre-check=0, post-check=0",
-        "date": "Wed, 05 Mar 2014 14:40:48 GMT",
-        "pragma": "no-cache",
-        "server": "tfe",
-        "content-length": "64",
-        "content-type": "application/json;charset=utf-8",
-        "expires": "Tue, 31 Mar 1981 05:00:00 GMT",
-        "last-modified": "Wed, 05 Mar 2014 14:40:48 GMT",
-        "set-cookie": "lang=ja",
-        "set-cookie": "<REMOVED> Expires=Fri, 04-Mar-2016 14:40:48 UTC",
-        "status": "400 Bad Request",
-        "strict-transport-security": "max-age=631138519",
-        "x-access-level": "read-write",
-        "x-content-type-options": "nosniff",
-        "x-frame-options": "SAMEORIGIN",
-        "x-rate-limit-limit": "180",
-        "x-rate-limit-remaining": "179",
-        "x-rate-limit-reset": "1394031348",
-        "x-transaction": "9e9580c7f0f026b2",
-        "x-xss-protection": "1; mode=block"
-      },
-      "body": "{\"errors\":[{\"code\":44,\"message\":\"count parameter is invalid.\"}]}"
+      "type": "ok"
     }
   }
 ]

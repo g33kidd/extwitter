@@ -1,47 +1,51 @@
 [
   {
     "request": {
-      "url": "https://api.twitter.com/1.1/search/tweets.json",
+      "body": "",
       "headers": [],
       "method": "get",
-      "body": "",
       "options": {
         "httpc_options": [],
         "http_options": {
-          "autoredirect": false
+          "autoredirect": "false"
         }
-      }
+      },
+      "request_body": "",
+      "url": "https://api.twitter.com/1.1/search/tweets.json"
     },
     "response": {
-      "type": "ok",
+      "body": "{\"statuses\":[{\"created_at\":\"Fri May 27 20:40:18 +0000 2016\",\"id\":736295989988995072,\"id_str\":\"736295989988995072\",\"text\":\"She got them fixed bruh..  Even I want to test the dome now.. \\ud83d\\ude02\\ud83d\\ude02\\ud83d\\ude02\\ud83d\\ude02 https:\\/\\/t.co\\/MXbTRtKkvm\",\"truncated\":false,\"entities\":{\"hashtags\":[],\"symbols\":[],\"user_mentions\":[],\"urls\":[{\"url\":\"https:\\/\\/t.co\\/MXbTRtKkvm\",\"expanded_url\":\"https:\\/\\/twitter.com\\/mooreaunicorn\\/status\\/732818194482794496\",\"display_url\":\"twitter.com\\/mooreaunicorn\\/\\u2026\",\"indices\":[67,90]}]},\"metadata\":{\"iso_language_code\":\"en\",\"result_type\":\"recent\"},\"source\":\"\\u003ca href=\\\"http:\\/\\/twitter.com\\\" rel=\\\"nofollow\\\"\\u003eTwitter Web Client\\u003c\\/a\\u003e\",\"in_reply_to_status_id\":null,\"in_reply_to_status_id_str\":null,\"in_reply_to_user_id\":null,\"in_reply_to_user_id_str\":null,\"in_reply_to_screen_name\":null,\"user\":{\"id\":708063732316897280,\"id_str\":\"708063732316897280\",\"name\":\"Marv Ellis\",\"screen_name\":\"BenjaminBanicca\",\"location\":\"NC\",\"description\":\"I'm not spam..  I'm just shy..  #Fitness #CarolinaPanthers Other than that ya boy be chillin...\",\"url\":null,\"entities\":{\"description\":{\"urls\":[]}},\"protected\":false,\"followers_count\":101,\"friends_count\":115,\"listed_count\":4,\"created_at\":\"Thu Mar 10 22:55:23 +0000 2016\",\"favourites_count\":269,\"utc_offset\":-14400,\"time_zone\":\"Eastern Time (US & Canada)\",\"geo_enabled\":false,\"verified\":false,\"statuses_count\":3237,\"lang\":\"en\",\"contributors_enabled\":false,\"is_translator\":false,\"is_translation_enabled\":false,\"profile_background_color\":\"000000\",\"profile_background_image_url\":\"http:\\/\\/abs.twimg.com\\/images\\/themes\\/theme1\\/bg.png\",\"profile_background_image_url_https\":\"https:\\/\\/abs.twimg.com\\/images\\/themes\\/theme1\\/bg.png\",\"profile_background_tile\":false,\"profile_image_url\":\"http:\\/\\/pbs.twimg.com\\/profile_images\\/732640587430563840\\/xzLgtEoL_normal.jpg\",\"profile_image_url_https\":\"https:\\/\\/pbs.twimg.com\\/profile_images\\/732640587430563840\\/xzLgtEoL_normal.jpg\",\"profile_banner_url\":\"https:\\/\\/pbs.twimg.com\\/profile_banners\\/708063732316897280\\/1463510127\",\"profile_link_color\":\"ABB8C2\",\"profile_sidebar_border_color\":\"000000\",\"profile_sidebar_fill_color\":\"000000\",\"profile_text_color\":\"000000\",\"profile_use_background_image\":false,\"has_extended_profile\":false,\"default_profile\":false,\"default_profile_image\":false,\"following\":false,\"follow_request_sent\":false,\"notifications\":false},\"geo\":null,\"coordinates\":null,\"place\":null,\"contributors\":null,\"quoted_status_id\":732818194482794496,\"quoted_status_id_str\":\"732818194482794496\",\"quoted_status\":{\"created_at\":\"Wed May 18 06:20:47 +0000 2016\",\"id\":732818194482794496,\"id_str\":\"732818194482794496\",\"text\":\"I Would Let Cardi B Suck My Dick But Idk If She Would Scratch My Shit With Her Bottom Teeth \\ud83d\\ude30\",\"truncated\":false,\"entities\":{\"hashtags\":[],\"symbols\":[],\"user_mentions\":[],\"urls\":[]},\"metadata\":{\"iso_language_code\":\"en\",\"result_type\":\"recent\"},\"source\":\"\\u003ca href=\\\"http:\\/\\/twitter.com\\/download\\/iphone\\\" rel=\\\"nofollow\\\"\\u003eTwitter for iPhone\\u003c\\/a\\u003e\",\"in_reply_to_status_id\":null,\"in_reply_to_status_id_str\":null,\"in_reply_to_user_id\":null,\"in_reply_to_user_id_str\":null,\"in_reply_to_screen_name\":null,\"user\":{\"id\":2921045995,\"id_str\":\"2921045995\",\"name\":\"Jeremy Moore\",\"screen_name\":\"mooreaunicorn\",\"location\":\"NiggaVillage\",\"description\":\"I LIKE UNICORNS\",\"url\":\"https:\\/\\/t.co\\/O9FmaWSWRe\",\"entities\":{\"url\":{\"urls\":[{\"url\":\"https:\\/\\/t.co\\/O9FmaWSWRe\",\"expanded_url\":\"http:\\/\\/www.Blackhoes.com\",\"display_url\":\"Blackhoes.com\",\"indices\":[0,23]}]},\"description\":{\"urls\":[]}},\"protected\":false,\"followers_count\":575,\"friends_count\":438,\"listed_count\":0,\"created_at\":\"Sat Dec 06 22:01:07 +0000 2014\",\"favourites_count\":1389,\"utc_offset\":null,\"time_zone\":null,\"geo_enabled\":true,\"verified\":false,\"statuses_count\":2583,\"lang\":\"en\",\"contributors_enabled\":false,\"is_translator\":false,\"is_translation_enabled\":false,\"profile_background_color\":\"C0DEED\",\"profile_background_image_url\":\"http:\\/\\/abs.twimg.com\\/images\\/themes\\/theme1\\/bg.png\",\"profile_background_image_url_https\":\"https:\\/\\/abs.twimg.com\\/images\\/themes\\/theme1\\/bg.png\",\"profile_background_tile\":false,\"profile_image_url\":\"http:\\/\\/pbs.twimg.com\\/profile_images\\/729101152588017664\\/Pxs32Bry_normal.jpg\",\"profile_image_url_https\":\"https:\\/\\/pbs.twimg.com\\/profile_images\\/729101152588017664\\/Pxs32Bry_normal.jpg\",\"profile_banner_url\":\"https:\\/\\/pbs.twimg.com\\/profile_banners\\/2921045995\\/1463787182\",\"profile_link_color\":\"0084B4\",\"profile_sidebar_border_color\":\"C0DEED\",\"profile_sidebar_fill_color\":\"DDEEF6\",\"profile_text_color\":\"333333\",\"profile_use_background_image\":true,\"has_extended_profile\":false,\"default_profile\":true,\"default_profile_image\":false,\"following\":false,\"follow_request_sent\":false,\"notifications\":false},\"geo\":null,\"coordinates\":null,\"place\":null,\"contributors\":null,\"is_quote_status\":false,\"retweet_count\":0,\"favorite_count\":3,\"favorited\":false,\"retweeted\":false,\"lang\":\"en\"},\"is_quote_status\":true,\"retweet_count\":0,\"favorite_count\":0,\"favorited\":false,\"retweeted\":false,\"possibly_sensitive\":false,\"lang\":\"en\"}],\"search_metadata\":{\"completed_in\":0.023,\"max_id\":736295989988995072,\"max_id_str\":\"736295989988995072\",\"query\":\"test\",\"refresh_url\":\"?since_id=736295989988995072&q=test&include_entities=1\",\"count\":2,\"since_id\":0,\"since_id_str\":\"0\"}}",
+      "headers": {
+        "cache-control": "no-cache, no-store, must-revalidate, pre-check=0, post-check=0",
+        "date": "Fri, 27 May 2016 20:40:38 GMT",
+        "pragma": "no-cache",
+        "server": "tsa_a",
+        "content-length": "5312",
+        "content-type": "application/json;charset=utf-8",
+        "expires": "Tue, 31 Mar 1981 05:00:00 GMT",
+        "last-modified": "Fri, 27 May 2016 20:40:38 GMT",
+        "content-disposition": "attachment; filename=json.json",
+        "set-cookie": "lang=en; Path=/",
+        "status": "200 OK",
+        "strict-transport-security": "max-age=631138519",
+        "x-access-level": "read-write",
+        "x-connection-hash": "6e4f210c188ca01873a409dc0dbe7ba7",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "SAMEORIGIN",
+        "x-rate-limit-limit": "180",
+        "x-rate-limit-remaining": "179",
+        "x-rate-limit-reset": "1464382538",
+        "x-response-time": "48",
+        "x-transaction": "e4c9ae67bf933538",
+        "x-twitter-response-tags": "BouncerCompliant",
+        "x-xss-protection": "1; mode=block"
+      },
       "status_code": [
         "HTTP/1.1",
         200,
         "OK"
       ],
-      "headers": {
-        "cache-control": "no-cache, no-store, must-revalidate, pre-check=0, post-check=0",
-        "date": "Wed, 05 Mar 2014 14:40:48 GMT",
-        "pragma": "no-cache",
-        "server": "tfe",
-        "content-length": "5160",
-        "content-type": "application/json;charset=utf-8",
-        "expires": "Tue, 31 Mar 1981 05:00:00 GMT",
-        "last-modified": "Wed, 05 Mar 2014 14:40:48 GMT",
-        "set-cookie": "lang=ja",
-        "set-cookie": "<REMOVED> Expires=Fri, 04-Mar-2016 14:40:48 UTC",
-        "status": "200 OK",
-        "strict-transport-security": "max-age=631138519",
-        "x-access-level": "read-write",
-        "x-content-type-options": "nosniff",
-        "x-frame-options": "SAMEORIGIN",
-        "x-rate-limit-limit": "180",
-        "x-rate-limit-remaining": "178",
-        "x-rate-limit-reset": "1394031348",
-        "x-transaction": "89798ebef1a64e0e",
-        "x-xss-protection": "1; mode=block"
-      },
-      "body": "{\"statuses\":[{\"metadata\":{\"result_type\":\"recent\",\"iso_language_code\":\"tl\"},\"created_at\":\"Wed Mar 05 14:40:32 +0000 2014\",\"id\":441221729403146240,\"id_str\":\"441221729403146240\",\"text\":\"Ung Feeling Na TEST na Nanaman....!!!!    (-_-)\",\"source\":\"web\",\"truncated\":false,\"in_reply_to_status_id\":null,\"in_reply_to_status_id_str\":null,\"in_reply_to_user_id\":null,\"in_reply_to_user_id_str\":null,\"in_reply_to_screen_name\":null,\"user\":{\"id\":1678303968,\"id_str\":\"1678303968\",\"name\":\"Mac-Mac :3\",\"screen_name\":\"mac_mac26\",\"location\":\"Caloocan City\",\"description\":\"There\\u2019s a point in life where you get tired of chasing everyone, and trying to fix things, but you\\u2019ve gotta do what\\u2019s right for you.\",\"url\":null,\"entities\":{\"description\":{\"urls\":[]}},\"protected\":false,\"followers_count\":202,\"friends_count\":505,\"listed_count\":0,\"created_at\":\"Sat Aug 17 14:14:01 +0000 2013\",\"favourites_count\":437,\"utc_offset\":null,\"time_zone\":null,\"geo_enabled\":false,\"verified\":false,\"statuses_count\":1484,\"lang\":\"fil\",\"contributors_enabled\":false,\"is_translator\":false,\"is_translation_enabled\":false,\"profile_background_color\":\"C0DEED\",\"profile_background_image_url\":\"http:\\/\\/pbs.twimg.com\\/profile_background_images\\/440870710374699009\\/-9LMZQ8Y.jpeg\",\"profile_background_image_url_https\":\"https:\\/\\/pbs.twimg.com\\/profile_background_images\\/440870710374699009\\/-9LMZQ8Y.jpeg\",\"profile_background_tile\":true,\"profile_image_url\":\"http:\\/\\/pbs.twimg.com\\/profile_images\\/440869369304739840\\/6PGSkXju_normal.jpeg\",\"profile_image_url_https\":\"https:\\/\\/pbs.twimg.com\\/profile_images\\/440869369304739840\\/6PGSkXju_normal.jpeg\",\"profile_banner_url\":\"https:\\/\\/pbs.twimg.com\\/profile_banners\\/1678303968\\/1393946445\",\"profile_link_color\":\"0084B4\",\"profile_sidebar_border_color\":\"FFFFFF\",\"profile_sidebar_fill_color\":\"FFFFFF\",\"profile_text_color\":\"333333\",\"profile_use_background_image\":true,\"default_profile\":false,\"default_profile_image\":false,\"following\":false,\"follow_request_sent\":false,\"notifications\":false},\"geo\":null,\"coordinates\":null,\"place\":null,\"contributors\":null,\"retweet_count\":0,\"favorite_count\":0,\"entities\":{\"hashtags\":[],\"symbols\":[],\"urls\":[],\"user_mentions\":[]},\"favorited\":false,\"retweeted\":false,\"lang\":\"tl\"},{\"metadata\":{\"result_type\":\"recent\",\"iso_language_code\":\"en\"},\"created_at\":\"Wed Mar 05 14:40:31 +0000 2014\",\"id\":441221726689435649,\"id_str\":\"441221726689435649\",\"text\":\"Witness in Pistorius trial recounts accidental gunshot at eatery: A boxer, testifying in the mu... http:\\/\\/t.co\\/owVRviq0c2 @xtsummergames\",\"source\":\"\\u003ca href=\\\"http:\\/\\/twitterfeed.com\\\" rel=\\\"nofollow\\\"\\u003etwitterfeed\\u003c\\/a\\u003e\",\"truncated\":false,\"in_reply_to_status_id\":null,\"in_reply_to_status_id_str\":null,\"in_reply_to_user_id\":null,\"in_reply_to_user_id_str\":null,\"in_reply_to_screen_name\":null,\"user\":{\"id\":482248020,\"id_str\":\"482248020\",\"name\":\"XT Olympic Games\",\"screen_name\":\"xtolympicsgames\",\"location\":\"Follow What Moves You\",\"description\":\"News, Notes & Tweets from the Olympic Games! Following every athlete on Twitter so you don't have to. #olympics #summergames #wintergames\",\"url\":\"http:\\/\\/t.co\\/EHTYXrSmPn\",\"entities\":{\"url\":{\"urls\":[{\"url\":\"http:\\/\\/t.co\\/EHTYXrSmPn\",\"expanded_url\":\"http:\\/\\/www.xtremetweet.com\",\"display_url\":\"xtremetweet.com\",\"indices\":[0,22]}]},\"description\":{\"urls\":[]}},\"protected\":false,\"followers_count\":1444,\"friends_count\":1561,\"listed_count\":12,\"created_at\":\"Fri Feb 03 17:56:29 +0000 2012\",\"favourites_count\":0,\"utc_offset\":-18000,\"time_zone\":\"Eastern Time (US & Canada)\",\"geo_enabled\":false,\"verified\":false,\"statuses_count\":2752,\"lang\":\"en\",\"contributors_enabled\":false,\"is_translator\":false,\"is_translation_enabled\":false,\"profile_background_color\":\"000000\",\"profile_background_image_url\":\"http:\\/\\/pbs.twimg.com\\/profile_background_images\\/514580913\\/twbackgrd2.jpg\",\"profile_background_image_url_https\":\"https:\\/\\/pbs.twimg.com\\/profile_background_images\\/514580913\\/twbackgrd2.jpg\",\"profile_background_tile\":false,\"profile_image_url\":\"http:\\/\\/abs.twimg.com\\/sticky\\/default_profile_images\\/default_profile_2_normal.png\",\"profile_image_url_https\":\"https:\\/\\/abs.twimg.com\\/sticky\\/default_profile_images\\/default_profile_2_normal.png\",\"profile_link_color\":\"0084B4\",\"profile_sidebar_border_color\":\"C0DEED\",\"profile_sidebar_fill_color\":\"DDEEF6\",\"profile_text_color\":\"333333\",\"profile_use_background_image\":true,\"default_profile\":false,\"default_profile_image\":true,\"following\":false,\"follow_request_sent\":false,\"notifications\":false},\"geo\":null,\"coordinates\":null,\"place\":null,\"contributors\":null,\"retweet_count\":0,\"favorite_count\":0,\"entities\":{\"hashtags\":[],\"symbols\":[],\"urls\":[{\"url\":\"http:\\/\\/t.co\\/owVRviq0c2\",\"expanded_url\":\"http:\\/\\/fxn.ws\\/1q633nb\",\"display_url\":\"fxn.ws\\/1q633nb\",\"indices\":[99,121]}],\"user_mentions\":[]},\"favorited\":false,\"retweeted\":false,\"possibly_sensitive\":false,\"lang\":\"en\"}],\"search_metadata\":{\"completed_in\":0.013,\"max_id\":441221729403146240,\"max_id_str\":\"441221729403146240\",\"next_results\":\"?max_id=441221726689435648&q=test&count=2&include_entities=1\",\"query\":\"test\",\"refresh_url\":\"?since_id=441221729403146240&q=test&include_entities=1\",\"count\":2,\"since_id\":0,\"since_id_str\":\"0\"}}"
+      "type": "ok"
     }
   }
 ]

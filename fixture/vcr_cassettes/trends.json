@@ -1,47 +1,51 @@
 [
   {
     "request": {
-      "url": "https://api.twitter.com/1.1/trends/place.json",
+      "body": "",
       "headers": [],
       "method": "get",
-      "body": "",
       "options": {
         "httpc_options": [],
         "http_options": {
-          "autoredirect": false
+          "autoredirect": "false"
         }
-      }
+      },
+      "request_body": "",
+      "url": "https://api.twitter.com/1.1/trends/place.json"
     },
     "response": {
-      "type": "ok",
+      "body": "[{\"trends\":[{\"name\":\"Johnny Depp\",\"url\":\"http:\\/\\/twitter.com\\/search?q=%22Johnny+Depp%22\",\"promoted_content\":null,\"query\":\"%22Johnny+Depp%22\",\"tweet_volume\":248013},{\"name\":\"#KohLanta\",\"url\":\"http:\\/\\/twitter.com\\/search?q=%23KohLanta\",\"promoted_content\":null,\"query\":\"%23KohLanta\",\"tweet_volume\":73849},{\"name\":\"#ENGvAUS\",\"url\":\"http:\\/\\/twitter.com\\/search?q=%23ENGvAUS\",\"promoted_content\":null,\"query\":\"%23ENGvAUS\",\"tweet_volume\":28721},{\"name\":\"#Gezi3Ya\\u015F\\u0131nda\",\"url\":\"http:\\/\\/twitter.com\\/search?q=%23Gezi3Ya%C5%9F%C4%B1nda\",\"promoted_content\":null,\"query\":\"%23Gezi3Ya%C5%9F%C4%B1nda\",\"tweet_volume\":27489},{\"name\":\"#_\\u0645\\u0646_\\u0648\\u062C\\u0647\\u0647_\\u0646\\u0638\\u0631\\u0643_\\u0645\\u0627\\u0647\\u064A_\\u0627\\u0644\\u0633\\u0639\\u0627\\u062F\\u0647\",\"url\":\"http:\\/\\/twitter.com\\/search?q=%23_%D9%85%D9%86_%D9%88%D8%AC%D9%87%D9%87_%D9%86%D8%B8%D8%B1%D9%83_%D9%85%D8%A7%D9%87%D9%8A_%D8%A7%D9%84%D8%B3%D8%B9%D8%A7%D8%AF%D9%87\",\"promoted_content\":null,\"query\":\"%23_%D9%85%D9%86_%D9%88%D8%AC%D9%87%D9%87_%D9%86%D8%B8%D8%B1%D9%83_%D9%85%D8%A7%D9%87%D9%8A_%D8%A7%D9%84%D8%B3%D8%B9%D8%A7%D8%AF%D9%87\",\"tweet_volume\":17318},{\"name\":\"#EstuproNao\\u00C9CulpaDaVitima\",\"url\":\"http:\\/\\/twitter.com\\/search?q=%23EstuproNao%C3%89CulpaDaVitima\",\"promoted_content\":null,\"query\":\"%23EstuproNao%C3%89CulpaDaVitima\",\"tweet_volume\":176163},{\"name\":\"Dier\",\"url\":\"http:\\/\\/twitter.com\\/search?q=Dier\",\"promoted_content\":null,\"query\":\"Dier\",\"tweet_volume\":11907},{\"name\":\"Tebrikler Alanyaspor\",\"url\":\"http:\\/\\/twitter.com\\/search?q=%22Tebrikler+Alanyaspor%22\",\"promoted_content\":null,\"query\":\"%22Tebrikler+Alanyaspor%22\",\"tweet_volume\":null},{\"name\":\"Sterling\",\"url\":\"http:\\/\\/twitter.com\\/search?q=Sterling\",\"promoted_content\":null,\"query\":\"Sterling\",\"tweet_volume\":54427},{\"name\":\"\\\"Lucifer\\\"\",\"url\":\"http:\\/\\/twitter.com\\/search?q=%22Lucifer%22\",\"promoted_content\":null,\"query\":\"%22Lucifer%22\",\"tweet_volume\":20118},{\"name\":\"Shane Long\",\"url\":\"http:\\/\\/twitter.com\\/search?q=%22Shane+Long%22\",\"promoted_content\":null,\"query\":\"%22Shane+Long%22\",\"tweet_volume\":null},{\"name\":\"Luke e Arzaylea\",\"url\":\"http:\\/\\/twitter.com\\/search?q=%22Luke+e+Arzaylea%22\",\"promoted_content\":null,\"query\":\"%22Luke+e+Arzaylea%22\",\"tweet_volume\":null},{\"name\":\"Tom Heaton\",\"url\":\"http:\\/\\/twitter.com\\/search?q=%22Tom+Heaton%22\",\"promoted_content\":null,\"query\":\"%22Tom+Heaton%22\",\"tweet_volume\":null},{\"name\":\"MICA EN LA PREVIA CON PINK\",\"url\":\"http:\\/\\/twitter.com\\/search?q=%22MICA+EN+LA+PREVIA+CON+PINK%22\",\"promoted_content\":null,\"query\":\"%22MICA+EN+LA+PREVIA+CON+PINK%22\",\"tweet_volume\":null},{\"name\":\"#7DaysTilBetter\",\"url\":\"http:\\/\\/twitter.com\\/search?q=%237DaysTilBetter\",\"promoted_content\":null,\"query\":\"%237DaysTilBetter\",\"tweet_volume\":56467},{\"name\":\"#5H727\",\"url\":\"http:\\/\\/twitter.com\\/search?q=%235H727\",\"promoted_content\":null,\"query\":\"%235H727\",\"tweet_volume\":230405},{\"name\":\"#MemorialDayWeekend\",\"url\":\"http:\\/\\/twitter.com\\/search?q=%23MemorialDayWeekend\",\"promoted_content\":null,\"query\":\"%23MemorialDayWeekend\",\"tweet_volume\":54379},{\"name\":\"#ierned\",\"url\":\"http:\\/\\/twitter.com\\/search?q=%23ierned\",\"promoted_content\":null,\"query\":\"%23ierned\",\"tweet_volume\":null},{\"name\":\"#\\u0645\\u0643\\u0647_\\u062A\\u062C\\u0645\\u0639\\u0646\\u06271\",\"url\":\"http:\\/\\/twitter.com\\/search?q=%23%D9%85%D9%83%D9%87_%D8%AA%D8%AC%D9%85%D8%B9%D9%86%D8%A71\",\"promoted_content\":null,\"query\":\"%23%D9%85%D9%83%D9%87_%D8%AA%D8%AC%D9%85%D8%B9%D9%86%D8%A71\",\"tweet_volume\":24156},{\"name\":\"#XFactorGR\",\"url\":\"http:\\/\\/twitter.com\\/search?q=%23XFactorGR\",\"promoted_content\":null,\"query\":\"%23XFactorGR\",\"tweet_volume\":10652},{\"name\":\"#\\u0627\\u0634\\u064A\\u0627\\u0621_\\u0643\\u0627\\u0646\\u062A_\\u062D\\u0631\\u0627\\u0645\\u0627_\\u062B\\u0645_\\u0635\\u0627\\u0631\\u062A_\\u062D\\u0644\\u0627\\u0644\\u0627\",\"url\":\"http:\\/\\/twitter.com\\/search?q=%23%D8%A7%D8%B4%D9%8A%D8%A7%D8%A1_%D9%83%D8%A7%D9%86%D8%AA_%D8%AD%D8%B1%D8%A7%D9%85%D8%A7_%D8%AB%D9%85_%D8%B5%D8%A7%D8%B1%D8%AA_%D8%AD%D9%84%D8%A7%D9%84%D8%A7\",\"promoted_content\":null,\"query\":\"%23%D8%A7%D8%B4%D9%8A%D8%A7%D8%A1_%D9%83%D8%A7%D9%86%D8%AA_%D8%AD%D8%B1%D8%A7%D9%85%D8%A7_%D8%AB%D9%85_%D8%B5%D8%A7%D8%B1%D8%AA_%D8%AD%D9%84%D8%A7%D9%84%D8%A7\",\"tweet_volume\":null},{\"name\":\"#\\u0627\\u064A\\u0631\\u0627\\u0646_\\u062A\\u0631\\u0641\\u0636_\\u0627\\u0644\\u062D\\u062C\",\"url\":\"http:\\/\\/twitter.com\\/search?q=%23%D8%A7%D9%8A%D8%B1%D8%A7%D9%86_%D8%AA%D8%B1%D9%81%D8%B6_%D8%A7%D9%84%D8%AD%D8%AC\",\"promoted_content\":null,\"query\":\"%23%D8%A7%D9%8A%D8%B1%D8%A7%D9%86_%D8%AA%D8%B1%D9%81%D8%B6_%D8%A7%D9%84%D8%AD%D8%AC\",\"tweet_volume\":null},{\"name\":\"#TraigoGanasDe\",\"url\":\"http:\\/\\/twitter.com\\/search?q=%23TraigoGanasDe\",\"promoted_content\":null,\"query\":\"%23TraigoGanasDe\",\"tweet_volume\":null},{\"name\":\"#MakeMeMadIn5Words\",\"url\":\"http:\\/\\/twitter.com\\/search?q=%23MakeMeMadIn5Words\",\"promoted_content\":null,\"query\":\"%23MakeMeMadIn5Words\",\"tweet_volume\":56822},{\"name\":\"#sensizya\\u015Fayamam\",\"url\":\"http:\\/\\/twitter.com\\/search?q=%23sensizya%C5%9Fayamam\",\"promoted_content\":null,\"query\":\"%23sensizya%C5%9Fayamam\",\"tweet_volume\":105101},{\"name\":\"#AdanaDemirspor\",\"url\":\"http:\\/\\/twitter.com\\/search?q=%23AdanaDemirspor\",\"promoted_content\":null,\"query\":\"%23AdanaDemirspor\",\"tweet_volume\":15275},{\"name\":\"#Erdo\\u011Fan\\u0130leSonunaKadar\",\"url\":\"http:\\/\\/twitter.com\\/search?q=%23Erdo%C4%9Fan%C4%B0leSonunaKadar\",\"promoted_content\":null,\"query\":\"%23Erdo%C4%9Fan%C4%B0leSonunaKadar\",\"tweet_volume\":18453},{\"name\":\"#DesmontandoALaCasta\",\"url\":\"http:\\/\\/twitter.com\\/search?q=%23DesmontandoALaCasta\",\"promoted_content\":null,\"query\":\"%23DesmontandoALaCasta\",\"tweet_volume\":28646},{\"name\":\"#KeepAFilmSafe\",\"url\":\"http:\\/\\/twitter.com\\/search?q=%23KeepAFilmSafe\",\"promoted_content\":null,\"query\":\"%23KeepAFilmSafe\",\"tweet_volume\":null},{\"name\":\"#CuidadoComOAnjo130\",\"url\":\"http:\\/\\/twitter.com\\/search?q=%23CuidadoComOAnjo130\",\"promoted_content\":null,\"query\":\"%23CuidadoComOAnjo130\",\"tweet_volume\":null},{\"name\":\"#ElJuniorDeGali\",\"url\":\"http:\\/\\/twitter.com\\/search?q=%23ElJuniorDeGali\",\"promoted_content\":null,\"query\":\"%23ElJuniorDeGali\",\"tweet_volume\":19913},{\"name\":\"#\\u0639\\u0645\\u0627\\u062F_\\u0627\\u0644\\u0645\\u0627\\u0644\\u0643\\u064A_\\u0628\\u0637\\u0644_\\u0627\\u0644\\u0639\\u0627\\u0644\\u0645\",\"url\":\"http:\\/\\/twitter.com\\/search?q=%23%D8%B9%D9%85%D8%A7%D8%AF_%D8%A7%D9%84%D9%85%D8%A7%D9%84%D9%83%D9%8A_%D8%A8%D8%B7%D9%84_%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85\",\"promoted_content\":null,\"query\":\"%23%D8%B9%D9%85%D8%A7%D8%AF_%D8%A7%D9%84%D9%85%D8%A7%D9%84%D9%83%D9%8A_%D8%A8%D8%B7%D9%84_%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85\",\"tweet_volume\":48762},{\"name\":\"#DeciloSinBarraEspaciadora\",\"url\":\"http:\\/\\/twitter.com\\/search?q=%23DeciloSinBarraEspaciadora\",\"promoted_content\":null,\"query\":\"%23DeciloSinBarraEspaciadora\",\"tweet_volume\":null},{\"name\":\"#14DaysTilBeSomebodyFilm\",\"url\":\"http:\\/\\/twitter.com\\/search?q=%2314DaysTilBeSomebodyFilm\",\"promoted_content\":null,\"query\":\"%2314DaysTilBeSomebodyFilm\",\"tweet_volume\":13863},{\"name\":\"#demandabel\\u00E9n\",\"url\":\"http:\\/\\/twitter.com\\/search?q=%23demandabel%C3%A9n\",\"promoted_content\":null,\"query\":\"%23demandabel%C3%A9n\",\"tweet_volume\":null},{\"name\":\"#quartogrado\",\"url\":\"http:\\/\\/twitter.com\\/search?q=%23quartogrado\",\"promoted_content\":null,\"query\":\"%23quartogrado\",\"tweet_volume\":null},{\"name\":\"#l6cBasura\",\"url\":\"http:\\/\\/twitter.com\\/search?q=%23l6cBasura\",\"promoted_content\":null,\"query\":\"%23l6cBasura\",\"tweet_volume\":null},{\"name\":\"#EntroEnCrisisCuando\",\"url\":\"http:\\/\\/twitter.com\\/search?q=%23EntroEnCrisisCuando\",\"promoted_content\":null,\"query\":\"%23EntroEnCrisisCuando\",\"tweet_volume\":null},{\"name\":\"#SagRiy\",\"url\":\"http:\\/\\/twitter.com\\/search?q=%23SagRiy\",\"promoted_content\":null,\"query\":\"%23SagRiy\",\"tweet_volume\":null},{\"name\":\"#PrayForMimaw\",\"url\":\"http:\\/\\/twitter.com\\/search?q=%23PrayForMimaw\",\"promoted_content\":null,\"query\":\"%23PrayForMimaw\",\"tweet_volume\":35408},{\"name\":\"#imigliorianni\",\"url\":\"http:\\/\\/twitter.com\\/search?q=%23imigliorianni\",\"promoted_content\":null,\"query\":\"%23imigliorianni\",\"tweet_volume\":null},{\"name\":\"#Km0HalaMadrid\",\"url\":\"http:\\/\\/twitter.com\\/search?q=%23Km0HalaMadrid\",\"promoted_content\":null,\"query\":\"%23Km0HalaMadrid\",\"tweet_volume\":null},{\"name\":\"#LetsDance\",\"url\":\"http:\\/\\/twitter.com\\/search?q=%23LetsDance\",\"promoted_content\":null,\"query\":\"%23LetsDance\",\"tweet_volume\":null},{\"name\":\"#GLvSRH\",\"url\":\"http:\\/\\/twitter.com\\/search?q=%23GLvSRH\",\"promoted_content\":null,\"query\":\"%23GLvSRH\",\"tweet_volume\":38423},{\"name\":\"#IRLNED\",\"url\":\"http:\\/\\/twitter.com\\/search?q=%23IRLNED\",\"promoted_content\":null,\"query\":\"%23IRLNED\",\"tweet_volume\":null},{\"name\":\"#tvvv\",\"url\":\"http:\\/\\/twitter.com\\/search?q=%23tvvv\",\"promoted_content\":null,\"query\":\"%23tvvv\",\"tweet_volume\":null},{\"name\":\"#\\u0642\\u0631\\u0648\\u0628_\\u062D\\u0628\\u064A\\u0628\\u064A_\\u0631\\u0633\\u0648\\u0644_\\u0627\\u0644\\u0644\\u0647\",\"url\":\"http:\\/\\/twitter.com\\/search?q=%23%D9%82%D8%B1%D9%88%D8%A8_%D8%AD%D8%A8%D9%8A%D8%A8%D9%8A_%D8%B1%D8%B3%D9%88%D9%84_%D8%A7%D9%84%D9%84%D9%87\",\"promoted_content\":null,\"query\":\"%23%D9%82%D8%B1%D9%88%D8%A8_%D8%AD%D8%A8%D9%8A%D8%A8%D9%8A_%D8%B1%D8%B3%D9%88%D9%84_%D8%A7%D9%84%D9%84%D9%87\",\"tweet_volume\":15153},{\"name\":\"#HIGNFY\",\"url\":\"http:\\/\\/twitter.com\\/search?q=%23HIGNFY\",\"promoted_content\":null,\"query\":\"%23HIGNFY\",\"tweet_volume\":null},{\"name\":\"#Akl\\u0131maGelmi\\u015FkenS\\u00F6yleyeyim\",\"url\":\"http:\\/\\/twitter.com\\/search?q=%23Akl%C4%B1maGelmi%C5%9FkenS%C3%B6yleyeyim\",\"promoted_content\":null,\"query\":\"%23Akl%C4%B1maGelmi%C5%9FkenS%C3%B6yleyeyim\",\"tweet_volume\":12643},{\"name\":\"#EnFinDeSemanaYo\",\"url\":\"http:\\/\\/twitter.com\\/search?q=%23EnFinDeSemanaYo\",\"promoted_content\":null,\"query\":\"%23EnFinDeSemanaYo\",\"tweet_volume\":null}],\"as_of\":\"2016-05-27T20:40:36Z\",\"created_at\":\"2016-05-27T20:38:47Z\",\"locations\":[{\"name\":\"Worldwide\",\"woeid\":1}]}]",
+      "headers": {
+        "cache-control": "no-cache, no-store, must-revalidate, pre-check=0, post-check=0",
+        "date": "Fri, 27 May 2016 20:40:36 GMT",
+        "pragma": "no-cache",
+        "server": "tsa_a",
+        "content-length": "9697",
+        "content-type": "application/json;charset=utf-8",
+        "expires": "Tue, 31 Mar 1981 05:00:00 GMT",
+        "last-modified": "Fri, 27 May 2016 20:40:36 GMT",
+        "content-disposition": "attachment; filename=json.json",
+        "set-cookie": "lang=en; Path=/",
+        "status": "200 OK",
+        "strict-transport-security": "max-age=631138519",
+        "x-access-level": "read-write",
+        "x-connection-hash": "6e4f210c188ca01873a409dc0dbe7ba7",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "SAMEORIGIN",
+        "x-rate-limit-limit": "15",
+        "x-rate-limit-remaining": "14",
+        "x-rate-limit-reset": "1464382536",
+        "x-response-time": "14",
+        "x-transaction": "5ded2a8cf9403f4d",
+        "x-twitter-response-tags": "BouncerCompliant",
+        "x-xss-protection": "1; mode=block"
+      },
       "status_code": [
         "HTTP/1.1",
         200,
         "OK"
       ],
-      "headers": {
-        "cache-control": "no-cache, no-store, must-revalidate, pre-check=0, post-check=0",
-        "date": "Mon, 10 Mar 2014 15:24:58 GMT",
-        "pragma": "no-cache",
-        "server": "tfe",
-        "content-length": "1957",
-        "content-type": "application/json;charset=utf-8",
-        "expires": "Tue, 31 Mar 1981 05:00:00 GMT",
-        "last-modified": "Mon, 10 Mar 2014 15:24:58 GMT",
-        "set-cookie": "lang=ja",
-        "set-cookie": "<REMOVED> Expires=Wed, 09-Mar-2016 15:24:58 UTC",
-        "status": "200 OK",
-        "strict-transport-security": "max-age=631138519",
-        "x-access-level": "read-write",
-        "x-content-type-options": "nosniff",
-        "x-frame-options": "SAMEORIGIN",
-        "x-rate-limit-limit": "15",
-        "x-rate-limit-remaining": "6",
-        "x-rate-limit-reset": "1394465520",
-        "x-transaction": "1e609a8578eed862",
-        "x-xss-protection": "1; mode=block"
-      },
-      "body": "[{\"trends\":[{\"name\":\"#\\u0412\\u0441\\u0435\\u041F\\u0440\\u043E\\u0441\\u0442\\u0438\\u0442\\u0443\\u0442\\u043A\\u0438\\u0420\\u0424\",\"url\":\"http:\\/\\/twitter.com\\/search?q=%23%D0%92%D1%81%D0%B5%D0%9F%D1%80%D0%BE%D1%81%D1%82%D0%B8%D1%82%D1%83%D1%82%D0%BA%D0%B8%D0%A0%D0%A4\",\"promoted_content\":null,\"query\":\"%23%D0%92%D1%81%D0%B5%D0%9F%D1%80%D0%BE%D1%81%D1%82%D0%B8%D1%82%D1%83%D1%82%D0%BA%D0%B8%D0%A0%D0%A4\",\"events\":null},{\"name\":\"#AkPartileYeniT\\u00FCrkiye\",\"url\":\"http:\\/\\/twitter.com\\/search?q=%23AkPartileYeniT%C3%BCrkiye\",\"promoted_content\":null,\"query\":\"%23AkPartileYeniT%C3%BCrkiye\",\"events\":null},{\"name\":\"#RanaSamahaOnAlhurra\",\"url\":\"http:\\/\\/twitter.com\\/search?q=%23RanaSamahaOnAlhurra\",\"promoted_content\":null,\"query\":\"%23RanaSamahaOnAlhurra\",\"events\":null},{\"name\":\"#ukisssoohyunday\",\"url\":\"http:\\/\\/twitter.com\\/search?q=%23ukisssoohyunday\",\"promoted_content\":null,\"query\":\"%23ukisssoohyunday\",\"events\":null},{\"name\":\"#HOT30PickMe45SOS\",\"url\":\"http:\\/\\/twitter.com\\/search?q=%23HOT30PickMe45SOS\",\"promoted_content\":null,\"query\":\"%23HOT30PickMe45SOS\",\"events\":null},{\"name\":\"Tuncay \\u00D6zkan\",\"url\":\"http:\\/\\/twitter.com\\/search?q=%22Tuncay+%C3%96zkan%22\",\"promoted_content\":null,\"query\":\"%22Tuncay+%C3%96zkan%22\",\"events\":null},{\"name\":\"Dursun \\u00C7i\\u00E7ek\",\"url\":\"http:\\/\\/twitter.com\\/search?q=%22Dursun+%C3%87i%C3%A7ek%22\",\"promoted_content\":null,\"query\":\"%22Dursun+%C3%87i%C3%A7ek%22\",\"events\":null},{\"name\":\"Semoga Besok\",\"url\":\"http:\\/\\/twitter.com\\/search?q=%22Semoga+Besok%22\",\"promoted_content\":null,\"query\":\"%22Semoga+Besok%22\",\"events\":null},{\"name\":\"Bob Marley\",\"url\":\"http:\\/\\/twitter.com\\/search?q=%22Bob+Marley%22\",\"promoted_content\":null,\"query\":\"%22Bob+Marley%22\",\"events\":null},{\"name\":\"South Park\",\"url\":\"http:\\/\\/twitter.com\\/search?q=%22South+Park%22\",\"promoted_content\":null,\"query\":\"%22South+Park%22\",\"events\":null}],\"as_of\":\"2014-03-10T15:24:58Z\",\"created_at\":\"2014-03-10T15:19:12Z\",\"locations\":[{\"name\":\"Worldwide\",\"woeid\":1}]}]"
+      "type": "ok"
     }
   }
 ]

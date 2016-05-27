@@ -11,37 +11,37 @@
         }
       },
       "request_body": "",
-      "url": "https://api.twitter.com/1.1/favorites/destroy.json"
+      "url": "https://api.twitter.com/1.1/direct_messages/destroy/615025281712025603.json"
     },
     "response": {
-      "body": "{\"errors\":[{\"code\":144,\"message\":\"No status found with that ID.\"}]}",
+      "body": "{\"errors\":[{\"code\":152,\"message\":\"You may only delete direct messages you've sent or received.\"}]}",
       "headers": {
         "cache-control": "no-cache, no-store, must-revalidate, pre-check=0, post-check=0",
-        "date": "Fri, 27 May 2016 20:40:36 GMT",
+        "date": "Fri, 27 May 2016 20:40:40 GMT",
         "pragma": "no-cache",
         "server": "tsa_a",
-        "content-length": "67",
+        "content-length": "98",
         "content-type": "application/json;charset=utf-8",
         "expires": "Tue, 31 Mar 1981 05:00:00 GMT",
-        "last-modified": "Fri, 27 May 2016 20:40:36 GMT",
+        "last-modified": "Fri, 27 May 2016 20:40:40 GMT",
         "content-disposition": "attachment; filename=json.json",
         "set-cookie": "lang=en; Path=/",
-        "status": "404 Not Found",
+        "status": "403 Forbidden",
         "strict-transport-security": "max-age=631138519",
         "x-access-level": "read-write",
         "x-connection-hash": "6e4f210c188ca01873a409dc0dbe7ba7",
         "x-content-type-options": "nosniff",
         "x-frame-options": "SAMEORIGIN",
-        "x-response-time": "24",
-        "x-transaction": "cde62dbae929e936",
-        "x-tsa-request-body-time": "0",
+        "x-response-time": "16",
+        "x-transaction": "bc83ad7aa476696b",
+        "x-tsa-request-body-time": "1",
         "x-twitter-response-tags": "BouncerCompliant",
         "x-xss-protection": "1; mode=block"
       },
       "status_code": [
         "HTTP/1.1",
-        404,
-        "Not Found"
+        403,
+        "Forbidden"
       ],
       "type": "ok"
     }

@@ -1,47 +1,51 @@
 [
   {
     "request": {
-      "url": "https://api.twitter.com/1.1/geo/search.json",
+      "body": "",
       "headers": [],
       "method": "get",
-      "body": "",
       "options": {
         "httpc_options": [],
         "http_options": {
           "autoredirect": "false"
         }
-      }
+      },
+      "request_body": "",
+      "url": "https://api.twitter.com/1.1/geo/search.json"
     },
     "response": {
-      "type": "ok",
+      "body": "{\"result\":{\"places\":[{\"id\":\"27485069891a7938\",\"url\":\"https:\\/\\/api.twitter.com\\/1.1\\/geo\\/id\\/27485069891a7938.json\",\"place_type\":\"admin\",\"name\":\"New York\",\"full_name\":\"New York, NY\",\"country_code\":\"US\",\"country\":\"United States\",\"contained_within\":[{\"id\":\"94965b2c45386f87\",\"url\":\"https:\\/\\/api.twitter.com\\/1.1\\/geo\\/id\\/94965b2c45386f87.json\",\"place_type\":\"admin\",\"name\":\"New York\",\"full_name\":\"New York, USA\",\"country_code\":\"US\",\"country\":\"United States\",\"centroid\":[-76.2146236146748,42.746617],\"bounding_box\":{\"type\":\"Polygon\",\"coordinates\":[[[-79.76259,40.477383],[-79.76259,45.015851],[-71.777492,45.015851],[-71.777492,40.477383],[-79.76259,40.477383]]]},\"attributes\":{}}],\"centroid\":[-73.86770300366848,40.685776000000004],\"bounding_box\":{\"type\":\"Polygon\",\"coordinates\":[[[-74.255641,40.495865],[-74.255641,40.91533],[-73.699793,40.91533],[-73.699793,40.495865],[-74.255641,40.495865]]]},\"attributes\":{}}]},\"query\":{\"url\":\"https:\\/\\/api.twitter.com\\/1.1\\/geo\\/search.json?<REMOVED>\",\"type\":\"search\",\"params\":{\"accuracy\":0.0,\"granularity\":\"neighborhood\",\"query\":\"new york\",\"autocomplete\":false,\"trim_place\":false}}}",
+      "headers": {
+        "cache-control": "no-cache, no-store, must-revalidate, pre-check=0, post-check=0",
+        "date": "Fri, 27 May 2016 20:40:36 GMT",
+        "pragma": "no-cache",
+        "server": "tsa_a",
+        "content-length": "1440",
+        "content-type": "application/json;charset=utf-8",
+        "expires": "Tue, 31 Mar 1981 05:00:00 GMT",
+        "last-modified": "Fri, 27 May 2016 20:40:36 GMT",
+        "content-disposition": "attachment; filename=json.json",
+        "set-cookie": "<REMOVED> Expires=Sun, 27-May-2018 20:40:36 UTC",
+        "status": "200 OK",
+        "strict-transport-security": "max-age=631138519",
+        "x-access-level": "read-write",
+        "x-connection-hash": "6e4f210c188ca01873a409dc0dbe7ba7",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "SAMEORIGIN",
+        "x-rate-limit-limit": "15",
+        "x-rate-limit-remaining": "14",
+        "x-rate-limit-reset": "1464382536",
+        "x-response-time": "21",
+        "x-transaction": "faab9b305bc8ac4e",
+        "x-twitter-response-tags": "BouncerCompliant",
+        "x-xss-protection": "1; mode=block"
+      },
       "status_code": [
         "HTTP/1.1",
         200,
         "OK"
       ],
-      "headers": {
-        "cache-control": "no-cache, no-store, must-revalidate, pre-check=0, post-check=0",
-        "date": "Tue, 25 Mar 2014 14:51:29 GMT",
-        "pragma": "no-cache",
-        "server": "tfe",
-        "content-length": "1180",
-        "content-type": "application/json;charset=utf-8",
-        "expires": "Tue, 31 Mar 1981 05:00:00 GMT",
-        "last-modified": "Tue, 25 Mar 2014 14:51:29 GMT",
-        "set-cookie": "lang=ja",
-        "set-cookie": "<REMOVED> Expires=Thu, 24-Mar-2016 14:51:29 UTC",
-        "status": "200 OK",
-        "strict-transport-security": "max-age=631138519",
-        "x-access-level": "read-write",
-        "x-content-type-options": "nosniff",
-        "x-frame-options": "SAMEORIGIN",
-        "x-rate-limit-limit": "15",
-        "x-rate-limit-remaining": "14",
-        "x-rate-limit-reset": "1395759989",
-        "x-transaction": "32f25d96256d5a08",
-        "x-xss-protection": "1; mode=block"
-      },
-      "body": "{\"result\":{\"places\":[{\"id\":\"94965b2c45386f87\",\"url\":\"https:\\/\\/api.twitter.com\\/1.1\\/geo\\/id\\/94965b2c45386f87.json\",\"place_type\":\"admin\",\"name\":\"New York\",\"full_name\":\"New York, US\",\"country_code\":\"US\",\"country\":\"United States\",\"contained_within\":[{\"id\":\"96683cc9126741d1\",\"url\":\"https:\\/\\/api.twitter.com\\/1.1\\/geo\\/id\\/96683cc9126741d1.json\",\"place_type\":\"country\",\"name\":\"United States\",\"full_name\":\"United States\",\"country_code\":\"US\",\"country\":\"United States\",\"bounding_box\":null,\"attributes\":{}}],\"bounding_box\":{\"type\":\"Polygon\",\"coordinates\":[[[-79.76259,40.477399],[-71.777491,40.477399],[-71.777491,45.015865],[-79.76259,45.015865]]]},\"attributes\":{}}]},\"query\":{\"url\":\"https:\\/\\/api.twitter.com\\/1.1\\/geo\\/search.json?<REMOVED>\",\"type\":\"search\",\"params\":{\"accuracy\":0.0,\"granularity\":\"neighborhood\",\"query\":\"new_york\",\"autocomplete\":false,\"trim_place\":false}}}"
+      "type": "ok"
     }
   }
 ]

@@ -1,47 +1,51 @@
 [
   {
     "request": {
-      "url": "https://api.twitter.com/1.1/lists/statuses.json",
+      "body": "",
       "headers": [],
       "method": "get",
-      "body": "",
       "options": {
         "httpc_options": [],
         "http_options": {
-          "autoredirect": false
+          "autoredirect": "false"
         }
-      }
+      },
+      "request_body": "",
+      "url": "https://api.twitter.com/1.1/lists/statuses.json"
     },
     "response": {
-      "type": "ok",
+      "body": "[{\"created_at\":\"Fri May 27 04:28:24 +0000 2016\",\"id\":736051403773222912,\"id_str\":\"736051403773222912\",\"text\":\"Watch on #Periscope: #UserStoryMapping with @JWalpole from @TwitterTPM https:\\/\\/t.co\\/b4NocArgiO\",\"truncated\":false,\"entities\":{\"hashtags\":[{\"text\":\"Periscope\",\"indices\":[9,19]},{\"text\":\"UserStoryMapping\",\"indices\":[21,38]}],\"symbols\":[],\"user_mentions\":[{\"screen_name\":\"JWalpole\",\"name\":\"John Walpole\",\"id\":21052171,\"id_str\":\"21052171\",\"indices\":[44,53]},{\"screen_name\":\"TwitterTPM\",\"name\":\"Twitter TPM Team\",\"id\":1357837494,\"id_str\":\"1357837494\",\"indices\":[59,70]}],\"urls\":[{\"url\":\"https:\\/\\/t.co\\/b4NocArgiO\",\"expanded_url\":\"https:\\/\\/www.periscope.tv\\/w\\/ahZyqzFlV0t5WEFiQmJsUUF8MXZPeHdCWXBNWGdKQoTRqzuF8ySWGs0_A6UMxy059BIkimh25cT3Gf4I47Jb\",\"display_url\":\"periscope.tv\\/w\\/ahZyqzFlV0t5\\u2026\",\"indices\":[71,94]}]},\"source\":\"\\u003ca href=\\\"http:\\/\\/twitter.com\\\" rel=\\\"nofollow\\\"\\u003eTwitter for  iPhone\\u003c\\/a\\u003e\",\"in_reply_to_status_id\":null,\"in_reply_to_status_id_str\":null,\"in_reply_to_user_id\":null,\"in_reply_to_user_id_str\":null,\"in_reply_to_screen_name\":null,\"user\":{\"id\":1357837494,\"id_str\":\"1357837494\",\"name\":\"Twitter TPM Team\",\"screen_name\":\"TwitterTPM\",\"location\":\"San Francisco, CA\",\"description\":\"The official account of Twitter's Technical Program Management team\",\"url\":null,\"entities\":{\"description\":{\"urls\":[]}},\"protected\":false,\"followers_count\":3032,\"friends_count\":143,\"listed_count\":77,\"created_at\":\"Tue Apr 16 20:49:54 +0000 2013\",\"favourites_count\":174,\"utc_offset\":-25200,\"time_zone\":\"Arizona\",\"geo_enabled\":true,\"verified\":true,\"statuses_count\":278,\"lang\":\"en\",\"contributors_enabled\":false,\"is_translator\":false,\"is_translation_enabled\":false,\"profile_background_color\":\"C0DEED\",\"profile_background_image_url\":\"http:\\/\\/abs.twimg.com\\/images\\/themes\\/theme1\\/bg.png\",\"profile_background_image_url_https\":\"https:\\/\\/abs.twimg.com\\/images\\/themes\\/theme1\\/bg.png\",\"profile_background_tile\":false,\"profile_image_url\":\"http:\\/\\/pbs.twimg.com\\/profile_images\\/3567583254\\/156947ffb355ab83fce42cbd90d6f753_normal.png\",\"profile_image_url_https\":\"https:\\/\\/pbs.twimg.com\\/profile_images\\/3567583254\\/156947ffb355ab83fce42cbd90d6f753_normal.png\",\"profile_banner_url\":\"https:\\/\\/pbs.twimg.com\\/profile_banners\\/1357837494\\/1368588972\",\"profile_link_color\":\"0084B4\",\"profile_sidebar_border_color\":\"C0DEED\",\"profile_sidebar_fill_color\":\"DDEEF6\",\"profile_text_color\":\"333333\",\"profile_use_background_image\":true,\"has_extended_profile\":false,\"default_profile\":true,\"default_profile_image\":false,\"following\":false,\"follow_request_sent\":false,\"notifications\":false},\"geo\":null,\"coordinates\":null,\"place\":null,\"contributors\":null,\"is_quote_status\":false,\"retweet_count\":2,\"favorite_count\":3,\"favorited\":false,\"retweeted\":false,\"possibly_sensitive\":false,\"lang\":\"en\"}]",
+      "headers": {
+        "cache-control": "no-cache, no-store, must-revalidate, pre-check=0, post-check=0",
+        "date": "Fri, 27 May 2016 20:40:43 GMT",
+        "pragma": "no-cache",
+        "server": "tsa_a",
+        "content-length": "2797",
+        "content-type": "application/json;charset=utf-8",
+        "expires": "Tue, 31 Mar 1981 05:00:00 GMT",
+        "last-modified": "Fri, 27 May 2016 20:40:43 GMT",
+        "content-disposition": "attachment; filename=json.json",
+        "set-cookie": "lang=en; Path=/",
+        "status": "200 OK",
+        "strict-transport-security": "max-age=631138519",
+        "x-access-level": "read-write",
+        "x-connection-hash": "6e4f210c188ca01873a409dc0dbe7ba7",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "SAMEORIGIN",
+        "x-rate-limit-limit": "180",
+        "x-rate-limit-remaining": "179",
+        "x-rate-limit-reset": "1464382543",
+        "x-response-time": "34",
+        "x-transaction": "c329762412523766",
+        "x-twitter-response-tags": "BouncerCompliant",
+        "x-xss-protection": "1; mode=block"
+      },
       "status_code": [
         "HTTP/1.1",
         200,
         "OK"
       ],
-      "headers": {
-        "cache-control": "no-cache, no-store, must-revalidate, pre-check=0, post-check=0",
-        "date": "Sun, 09 Mar 2014 12:48:51 GMT",
-        "pragma": "no-cache",
-        "server": "tfe",
-        "content-length": "2139",
-        "content-type": "application/json;charset=utf-8",
-        "expires": "Tue, 31 Mar 1981 05:00:00 GMT",
-        "last-modified": "Sun, 09 Mar 2014 12:48:51 GMT",
-        "set-cookie": "lang=ja",
-        "set-cookie": "<REMOVED> Expires=Tue, 08-Mar-2016 12:48:51 UTC",
-        "status": "200 OK",
-        "strict-transport-security": "max-age=631138519",
-        "x-access-level": "read-write",
-        "x-content-type-options": "nosniff",
-        "x-frame-options": "SAMEORIGIN",
-        "x-rate-limit-limit": "180",
-        "x-rate-limit-remaining": "154",
-        "x-rate-limit-reset": "1394369521",
-        "x-transaction": "647d037386faa38b",
-        "x-xss-protection": "1; mode=block"
-      },
-      "body": "[{\"created_at\":\"Sat Mar 08 22:57:14 +0000 2014\",\"id\":442433890431401985,\"id_str\":\"442433890431401985\",\"text\":\"From all of us in @WomEng and at @Twitter, we hope you are having a great International Women's Day!\",\"source\":\"web\",\"truncated\":false,\"in_reply_to_status_id\":null,\"in_reply_to_status_id_str\":null,\"in_reply_to_user_id\":null,\"in_reply_to_user_id_str\":null,\"in_reply_to_screen_name\":null,\"user\":{\"id\":437698597,\"id_str\":\"437698597\",\"name\":\"Twitter WomEng\",\"screen_name\":\"womeng\",\"location\":\"San Francisco, CA\",\"description\":\"Twitter's Women in Engineering Group\",\"url\":null,\"entities\":{\"description\":{\"urls\":[]}},\"protected\":false,\"followers_count\":16189,\"friends_count\":125,\"listed_count\":135,\"created_at\":\"Thu Dec 15 18:42:44 +0000 2011\",\"favourites_count\":46,\"utc_offset\":-36000,\"time_zone\":\"Hawaii\",\"geo_enabled\":true,\"verified\":true,\"statuses_count\":305,\"lang\":\"en\",\"contributors_enabled\":false,\"is_translator\":false,\"is_translation_enabled\":false,\"profile_background_color\":\"C0DEED\",\"profile_background_image_url\":\"http:\\/\\/abs.twimg.com\\/images\\/themes\\/theme1\\/bg.png\",\"profile_background_image_url_https\":\"https:\\/\\/abs.twimg.com\\/images\\/themes\\/theme1\\/bg.png\",\"profile_background_tile\":false,\"profile_image_url\":\"http:\\/\\/pbs.twimg.com\\/profile_images\\/2346587762\\/6bzyl5e7v13fijy4cs7y_normal.png\",\"profile_image_url_https\":\"https:\\/\\/pbs.twimg.com\\/profile_images\\/2346587762\\/6bzyl5e7v13fijy4cs7y_normal.png\",\"profile_link_color\":\"0084B4\",\"profile_sidebar_border_color\":\"C0DEED\",\"profile_sidebar_fill_color\":\"DDEEF6\",\"profile_text_color\":\"333333\",\"profile_use_background_image\":true,\"default_profile\":true,\"default_profile_image\":false,\"following\":false,\"follow_request_sent\":false,\"notifications\":false},\"geo\":null,\"coordinates\":null,\"place\":null,\"contributors\":null,\"retweet_count\":9,\"favorite_count\":13,\"entities\":{\"hashtags\":[],\"symbols\":[],\"urls\":[],\"user_mentions\":[{\"screen_name\":\"womeng\",\"name\":\"Twitter WomEng\",\"id\":437698597,\"id_str\":\"437698597\",\"indices\":[18,25]},{\"screen_name\":\"twitter\",\"name\":\"Twitter\",\"id\":783214,\"id_str\":\"783214\",\"indices\":[33,41]}]},\"favorited\":false,\"retweeted\":false,\"lang\":\"en\"}]"
+      "type": "ok"
     }
   }
 ]

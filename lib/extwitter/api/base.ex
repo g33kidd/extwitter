@@ -57,6 +57,7 @@ defmodule ExTwitter.API.Base do
 
   def parse_result(result) do
     {:ok, {_response, header, body}} = result
+    # IO.inspect result
     verify_response(ExTwitter.JSON.decode!(body), header)
   end
 

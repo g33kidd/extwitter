@@ -10,30 +10,34 @@
           "autoredirect": "false"
         }
       },
+      "request_body": "",
       "url": "https://api.twitter.com/1.1/application/rate_limit_status.json"
     },
     "response": {
-      "body": "{\"rate_limit_context\":{\"access_token\":\"<REMOVED>\"},\"resources\":{\"statuses\":{\"\\/statuses\\/mentions_timeline\":{\"limit\":15,\"remaining\":15,\"reset\":1409459909},\"\\/statuses\\/lookup\":{\"limit\":180,\"remaining\":180,\"reset\":1409459909},\"\\/statuses\\/show\\/:id\":{\"limit\":180,\"remaining\":180,\"reset\":1409459909},\"\\/statuses\\/oembed\":{\"limit\":180,\"remaining\":180,\"reset\":1409459909},\"\\/statuses\\/retweeters\\/ids\":{\"limit\":15,\"remaining\":15,\"reset\":1409459909},\"\\/statuses\\/home_timeline\":{\"limit\":15,\"remaining\":15,\"reset\":1409459909},\"\\/statuses\\/user_timeline\":{\"limit\":180,\"remaining\":180,\"reset\":1409459909},\"\\/statuses\\/friends\":{\"limit\":15,\"remaining\":15,\"reset\":1409459909},\"\\/statuses\\/retweets\\/:id\":{\"limit\":60,\"remaining\":60,\"reset\":1409459909},\"\\/statuses\\/retweets_of_me\":{\"limit\":15,\"remaining\":15,\"reset\":1409459909}}}}",
+      "body": "{\"rate_limit_context\":{\"access_token\":\"<REMOVED>\"},\"resources\":{\"statuses\":{\"\\/statuses\\/retweeters\\/ids\":{\"limit\":15,\"remaining\":14,\"reset\":1464382537},\"\\/statuses\\/retweets_of_me\":{\"limit\":15,\"remaining\":14,\"reset\":1464382536},\"\\/statuses\\/home_timeline\":{\"limit\":15,\"remaining\":14,\"reset\":1464382541},\"\\/statuses\\/show\\/:id\":{\"limit\":180,\"remaining\":179,\"reset\":1464382538},\"\\/statuses\\/user_timeline\":{\"limit\":180,\"remaining\":178,\"reset\":1464382536},\"\\/statuses\\/friends\":{\"limit\":15,\"remaining\":15,\"reset\":1464382543},\"\\/statuses\\/retweets\\/:id\":{\"limit\":60,\"remaining\":59,\"reset\":1464382541},\"\\/statuses\\/mentions_timeline\":{\"limit\":15,\"remaining\":14,\"reset\":1464382538},\"\\/statuses\\/oembed\":{\"limit\":180,\"remaining\":180,\"reset\":1464382543},\"\\/statuses\\/lookup\":{\"limit\":180,\"remaining\":179,\"reset\":1464382541}}}}",
       "headers": {
         "cache-control": "no-cache, no-store, must-revalidate, pre-check=0, post-check=0",
-        "date": "Sun, 31 Aug 2014 04:23:29 GMT",
+        "date": "Fri, 27 May 2016 20:40:43 GMT",
         "pragma": "no-cache",
-        "server": "tfe_a",
+        "server": "tsa_a",
         "content-length": "860",
         "content-type": "application/json;charset=utf-8",
         "expires": "Tue, 31 Mar 1981 05:00:00 GMT",
-        "last-modified": "Sun, 31 Aug 2014 04:23:29 GMT",
-        "set-cookie": "lang=ja",
-        "set-cookie": "<REMOVED> Expires=Tue, 30-Aug-2016 04:23:29 UTC",
+        "last-modified": "Fri, 27 May 2016 20:40:43 GMT",
+        "content-disposition": "attachment; filename=json.json",
+        "set-cookie": "lang=en; Path=/",
         "status": "200 OK",
         "strict-transport-security": "max-age=631138519",
         "x-access-level": "read-write",
+        "x-connection-hash": "6e4f210c188ca01873a409dc0dbe7ba7",
         "x-content-type-options": "nosniff",
         "x-frame-options": "SAMEORIGIN",
         "x-rate-limit-limit": "180",
-        "x-rate-limit-remaining": "163",
-        "x-rate-limit-reset": "1409459112",
-        "x-transaction": "04c6baf7c2b371ad",
+        "x-rate-limit-remaining": "179",
+        "x-rate-limit-reset": "1464382543",
+        "x-response-time": "31",
+        "x-transaction": "d8cdc93a2c51ef62",
+        "x-twitter-response-tags": "BouncerCompliant",
         "x-xss-protection": "1; mode=block"
       },
       "status_code": [

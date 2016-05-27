@@ -10,30 +10,34 @@
           "autoredirect": "false"
         }
       },
+      "request_body": "",
       "url": "https://api.twitter.com/1.1/friends/list.json"
     },
     "response": {
-      "body": "{\"users\":[{\"id\":15846407,\"id_str\":\"15846407\",\"name\":\"Ellen DeGeneres\",\"screen_name\":\"TheEllenShow\",\"location\":\"California\",\"description\":\"Comedian, talk show host and ice road trucker. My tweets are real, and they\\u2019re spectacular.\",\"url\":\"http:\\/\\/t.co\\/rJNCGU9GhH\",\"entities\":{\"url\":{\"urls\":[{\"url\":\"http:\\/\\/t.co\\/rJNCGU9GhH\",\"expanded_url\":\"http:\\/\\/www.ellentv.com\",\"display_url\":\"ellentv.com\",\"indices\":[0,22]}]},\"description\":{\"urls\":[]}},\"protected\":false,\"followers_count\":29558590,\"friends_count\":46148,\"listed_count\":101167,\"created_at\":\"Thu Aug 14 03:50:42 +0000 2008\",\"favourites_count\":172,\"utc_offset\":-25200,\"time_zone\":\"Pacific Time (US & Canada)\",\"geo_enabled\":false,\"verified\":true,\"statuses_count\":9065,\"lang\":\"en\",\"status\":{\"created_at\":\"Fri Jul 04 17:49:02 +0000 2014\",\"id\":485118100732252160,\"id_str\":\"485118100732252160\",\"text\":\"My tongue is red, white and blue because I was eating a Papa Smurf popsicle.\",\"source\":\"\\u003ca href=\\\"http:\\/\\/twitter.com\\/#!\\/download\\/ipad\\\" rel=\\\"nofollow\\\"\\u003eTwitter for iPad\\u003c\\/a\\u003e\",\"truncated\":false,\"in_reply_to_status_id\":null,\"in_reply_to_status_id_str\":null,\"in_reply_to_user_id\":null,\"in_reply_to_user_id_str\":null,\"in_reply_to_screen_name\":null,\"geo\":null,\"coordinates\":null,\"place\":null,\"contributors\":null,\"retweet_count\":1758,\"favorite_count\":8186,\"entities\":{\"hashtags\":[],\"symbols\":[],\"urls\":[],\"user_mentions\":[]},\"favorited\":false,\"retweeted\":false,\"lang\":\"en\"},\"contributors_enabled\":false,\"is_translator\":false,\"is_translation_enabled\":true,\"profile_background_color\":\"3ABEE3\",\"profile_background_image_url\":\"http:\\/\\/pbs.twimg.com\\/profile_background_images\\/446411201413541888\\/uY6CCUHT.png\",\"profile_background_image_url_https\":\"https:\\/\\/pbs.twimg.com\\/profile_background_images\\/446411201413541888\\/uY6CCUHT.png\",\"profile_background_tile\":false,\"profile_image_url\":\"http:\\/\\/pbs.twimg.com\\/profile_images\\/464848898305949697\\/aBzDtrGt_normal.jpeg\",\"profile_image_url_https\":\"https:\\/\\/pbs.twimg.com\\/profile_images\\/464848898305949697\\/aBzDtrGt_normal.jpeg\",\"profile_banner_url\":\"https:\\/\\/pbs.twimg.com\\/profile_banners\\/15846407\\/1401480914\",\"profile_link_color\":\"3ABEE3\",\"profile_sidebar_border_color\":\"FFFFFF\",\"profile_sidebar_fill_color\":\"C4C6CC\",\"profile_text_color\":\"000000\",\"profile_use_background_image\":true,\"default_profile\":false,\"default_profile_image\":false,\"following\":false,\"follow_request_sent\":false,\"notifications\":false,\"muting\":false}],\"next_cursor\":1461526201539985222,\"next_cursor_str\":\"1461526201539985222\",\"previous_cursor\":0,\"previous_cursor_str\":\"0\"}",
+      "body": "{\"users\":[{\"id\":717463776170119169,\"id_str\":\"717463776170119169\",\"name\":\"Twitter Detroit\",\"screen_name\":\"TwitterDetroit\",\"location\":\"Detroit, MI\",\"description\":\"The latest from your Twitter Detroit team including updates around Detroit, the automotive vertical, and Twitter platform.\",\"url\":null,\"entities\":{\"description\":{\"urls\":[]}},\"protected\":false,\"followers_count\":206,\"friends_count\":169,\"listed_count\":4,\"created_at\":\"Tue Apr 05 21:27:48 +0000 2016\",\"favourites_count\":1,\"utc_offset\":-25200,\"time_zone\":\"Pacific Time (US & Canada)\",\"geo_enabled\":false,\"verified\":true,\"statuses_count\":9,\"lang\":\"en\",\"status\":{\"created_at\":\"Wed May 18 13:10:14 +0000 2016\",\"id\":732921237433901058,\"id_str\":\"732921237433901058\",\"text\":\"Happy Birthday @DetroitBruce from your friends at @TwitterDetroit  https:\\/\\/t.co\\/PwfsHH6jJJ\",\"truncated\":false,\"entities\":{\"hashtags\":[],\"symbols\":[],\"user_mentions\":[{\"screen_name\":\"DetroitBruce\",\"name\":\"Bruce Schwartz\",\"id\":138609481,\"id_str\":\"138609481\",\"indices\":[15,28]},{\"screen_name\":\"TwitterDetroit\",\"name\":\"Twitter Detroit\",\"id\":717463776170119169,\"id_str\":\"717463776170119169\",\"indices\":[50,65]}],\"urls\":[{\"url\":\"https:\\/\\/t.co\\/PwfsHH6jJJ\",\"expanded_url\":\"https:\\/\\/twitter.com\\/opportunitydet\\/status\\/732685660012732416\",\"display_url\":\"twitter.com\\/opportunitydet\\u2026\",\"indices\":[67,90]}]},\"source\":\"\\u003ca href=\\\"http:\\/\\/twitter.com\\/download\\/iphone\\\" rel=\\\"nofollow\\\"\\u003eTwitter for iPhone\\u003c\\/a\\u003e\",\"in_reply_to_status_id\":null,\"in_reply_to_status_id_str\":null,\"in_reply_to_user_id\":null,\"in_reply_to_user_id_str\":null,\"in_reply_to_screen_name\":null,\"geo\":null,\"coordinates\":null,\"place\":null,\"contributors\":null,\"quoted_status_id\":732685660012732416,\"quoted_status_id_str\":\"732685660012732416\",\"is_quote_status\":true,\"retweet_count\":1,\"favorite_count\":5,\"favorited\":false,\"retweeted\":false,\"possibly_sensitive\":false,\"lang\":\"en\"},\"contributors_enabled\":false,\"is_translator\":false,\"is_translation_enabled\":false,\"profile_background_color\":\"F5F8FA\",\"profile_background_image_url\":null,\"profile_background_image_url_https\":null,\"profile_background_tile\":false,\"profile_image_url\":\"http:\\/\\/pbs.twimg.com\\/profile_images\\/730867336924667904\\/7L_fMjV__normal.jpg\",\"profile_image_url_https\":\"https:\\/\\/pbs.twimg.com\\/profile_images\\/730867336924667904\\/7L_fMjV__normal.jpg\",\"profile_banner_url\":\"https:\\/\\/pbs.twimg.com\\/profile_banners\\/717463776170119169\\/1463357372\",\"profile_link_color\":\"2B7BB9\",\"profile_sidebar_border_color\":\"C0DEED\",\"profile_sidebar_fill_color\":\"DDEEF6\",\"profile_text_color\":\"333333\",\"profile_use_background_image\":true,\"has_extended_profile\":false,\"default_profile\":true,\"default_profile_image\":false,\"following\":false,\"follow_request_sent\":false,\"notifications\":false,\"muting\":false,\"blocking\":false,\"blocked_by\":false}],\"next_cursor\":1535350349407874001,\"next_cursor_str\":\"1535350349407874001\",\"previous_cursor\":0,\"previous_cursor_str\":\"0\"}",
       "headers": {
         "cache-control": "no-cache, no-store, must-revalidate, pre-check=0, post-check=0",
-        "date": "Sun, 06 Jul 2014 13:28:28 GMT",
+        "date": "Fri, 27 May 2016 20:40:41 GMT",
         "pragma": "no-cache",
-        "server": "tfe",
-        "content-length": "2572",
+        "server": "tsa_a",
+        "content-length": "2919",
         "content-type": "application/json;charset=utf-8",
         "expires": "Tue, 31 Mar 1981 05:00:00 GMT",
-        "last-modified": "Sun, 06 Jul 2014 13:28:28 GMT",
-        "set-cookie": "lang=ja",
-        "set-cookie": "<REMOVED> Expires=Tue, 05-Jul-2016 13:28:28 UTC",
+        "last-modified": "Fri, 27 May 2016 20:40:41 GMT",
+        "content-disposition": "attachment; filename=json.json",
+        "set-cookie": "lang=en; Path=/",
         "status": "200 OK",
         "strict-transport-security": "max-age=631138519",
         "x-access-level": "read-write",
+        "x-connection-hash": "6e4f210c188ca01873a409dc0dbe7ba7",
         "x-content-type-options": "nosniff",
         "x-frame-options": "SAMEORIGIN",
         "x-rate-limit-limit": "15",
         "x-rate-limit-remaining": "14",
-        "x-rate-limit-reset": "1404654208",
-        "x-transaction": "617186487f858a2f",
+        "x-rate-limit-reset": "1464382541",
+        "x-response-time": "47",
+        "x-transaction": "bcc47b76389b712d",
+        "x-twitter-response-tags": "BouncerCompliant",
         "x-xss-protection": "1; mode=block"
       },
       "status_code": [

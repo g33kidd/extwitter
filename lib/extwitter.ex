@@ -861,9 +861,18 @@ defmodule ExTwitter do
   # https://dev.twitter.com/docs/api/1.1/get/friendships/lookup
 
 
-  # -------------- Media -------------
+  # -------------- `Media` -------------
 
-  defdelegate update_with_media(media_content, options), to: ExTwitter.API.Media
+  defdelegate upload_init(media_content), to: ExTwitter.API.Media
+  defdelegate upload_init(media_content, options), to: ExTwitter.API.Media
+
+  defdelegate upload_append(media_content, media_id, segment), to: ExTwitter.API.Media
+  defdelegate upload_append(media_content, media_id, segment, options), to: ExTwitter.API.Media
+
+  defdelegate upload_finalize(media_id), to: ExTwitter.API.Media
+  defdelegate upload_finalize(media_id, options), to: ExTwitter.API.Media
+
+  # defdelegate update_with_media(media_content, options), to: ExTwitter.API.Media.
 
   # -------------- Users -------------
 

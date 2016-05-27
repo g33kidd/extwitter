@@ -11,20 +11,18 @@ defmodule ExTwitter.API.Media do
     |> ExTwitter.Parser.parse_upload
   end
 
-  def upload_chunked(data, options \\ []) do
-  end
-
-  def upload_init(data, filetype, options \\ []) do
+  def upload_init(data, options \\ []) do
     params = ExTwitter.Parser.parse_request_params([
-      command: "INIT", media: data, total_bytes: byte_size(data)] ++ options)
+      command: "INIT", media_type: "video/mp4", total_bytes: byte_size(data)] ++ options)
     upload_request(:post, "1.1/media/upload.json", params)
     |> ExTwitter.Parser.parse_upload
   end
 
-  def upload_append(data, media_id, options \\ []) do
+  def upload_append(data, media_id, segment, options \\ []) do
     params = ExTwitter.Parser.parse_request_params([
-      command: "APPEND", media: data, media_id: media_id, segment_index: 0])
+      command: "APPEND", media: data, media_id: media_id, segment_index: segment])
     upload_request(:post, "1.1/media/upload.json", params)
+    |> ExTwitter.Parser.parse_upload
   end
 
   def upload_finalize(data, options \\ []) do
